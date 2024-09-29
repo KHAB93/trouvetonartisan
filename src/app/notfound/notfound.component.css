@@ -1,0 +1,14 @@
+.container img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .container p {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    font-family: 'Graphik', sans-serif;
+  }
+  
+  .mb-20 {
+    margin-bottom: 20px;
+  }

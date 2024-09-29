@@ -1,0 +1,22 @@
+
+<div class="bloc1">
+  <div>
+    <h1>{{ title }}</h1>
+      <div *ngIf="filteredArtisans.length > 0">
+        <div class="artisan-wrapper"> 
+          <div *ngFor="let artisan of filteredArtisans"class="artisan">
+            <h2>{{ artisan.name }} {{ artisan.id }}</h2>
+              <p>Spécialité: {{ artisan.specialty }}</p>
+              <p>Note: {{ artisan.note }}</p>
+              <p>Localisation: {{ artisan.location }}</p>
+              <a [routerLink]="['/artisan', artisan.id]">Consulter la fiche ({{ artisan.id }})</a>
+          </div>
+          <div class="bloc2">
+            <img src="menuisierbatiment.jpg" alt="artisanhome" class="centered-image">
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+

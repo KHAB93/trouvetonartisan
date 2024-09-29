@@ -1,0 +1,136 @@
+.container-fluid {
+    color: #f1f8fc;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    font-family: 'Graphik', sans-serif;
+  }
+  
+.container-fluid {
+    padding: 0;
+  }
+  
+.row {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+
+.bloc1 {
+    float: left; 
+    width: 50%; 
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+  }
+  
+.bloc2 {
+    float: right; 
+    width: 50%; 
+  }
+
+  .bloc3 h1 {
+    text-align: center;
+  }
+
+.bloc1 ul, .bloc2 ul {
+    margin: 0; 
+    font-size: 25px;
+    align-items: center;
+    line-height: 5; 
+
+}
+
+.bloc1 p {
+    color: #0074c7;
+    font-weight: bold;
+  }
+
+.bloc1 p:hover {
+    color: #0074c7;
+    font-weight: bold;
+    text-decoration: underline solid;
+    cursor: pointer;
+
+}
+
+.artisanhome {
+    width: 300px; 
+    height: auto; 
+}
+
+.bloc3 h1{
+    color: #00497c;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.artisan-container {
+    flex-basis: 30%; 
+    margin: 20px; 
+    background-color: #f7f7f7; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    color: #384050 ;
+}
+
+.artisan-container h2 {
+    color: #00497c;
+    font-weight: bold;
+}
+
+.artisan-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto; 
+  width: 80%; 
+}
+
+.artisan-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.artisan {
+  flex-basis: 45%; 
+  margin: 10px;
+  text-align: center; 
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f1f8fc ;
+}
+
+.artisan a {
+  
+  text-decoration: none; 
+  border: none; 
+  width: 40%; 
+  padding: 10px;
+  background-color: #0074c7;
+  color: #f1f8fc;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.artisan p {
+  font-weight: bold; 
+}
+
+.bloc4 {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.centered-image {
+  width: 50%; 
+  height: auto; 
+}

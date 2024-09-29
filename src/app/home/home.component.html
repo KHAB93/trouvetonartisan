@@ -1,0 +1,45 @@
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="bloc1">
+        <ul>
+          <p class="1">Choisissez la catégorie d'artisanat</p>
+          <p class="2">Choisissez un artisan</p>
+          <p class="3">Contactez le via le formulaire de contact</p>
+          <p class="4">Une réponse vous sera apportée sous 48h</p>
+        </ul>
+      </div>
+      <div class="bloc2">
+        <img src="artisanhome.jpg" alt="artisanhome">
+      </div>
+    </div>
+  </div>
+    <div class="bloc3">
+        <h1>Les 3 artisans du mois</h1>
+          <div class="artisan-container">
+              <div *ngIf="filteredArtisans.length > 0">
+                <div class="artisan-wrapper"> 
+                  <div *ngFor="let artisan of filteredArtisans"class="artisan">
+                    <h2>{{ artisan.name }} {{ artisan.id }}</h2>
+                    <p>Spécialité: {{ artisan.specialty }}</p>
+                    <p>Note: {{ artisan.note }}</p>
+                    <p>Localisation: {{ artisan.location }}</p>
+                    <a [routerLink]="['/artisan', artisan.id]">Consulter la fiche ({{ artisan.id }})</a>
+                  </div>
+                </div>
+              </div>
+    <div class="bloc4">
+        <img src="menuisierhome.jpg" alt="artisanhome" class="centered-image">
+    </div>
+    </div>
+    </div>
+      
+    
+      
+    
+    
+
+
+
+

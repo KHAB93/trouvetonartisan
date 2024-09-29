@@ -1,0 +1,14 @@
+<div class="artisan-profile">
+    <p> ID: {{ artisan?.id }}</p>
+    <h1>{{ artisan?.name }}</h1>
+    <p>Specialité: {{ artisan?.specialty }}</p>
+    <p>Note: {{ artisan?.note }}</p>
+    <p>Localisation: {{ artisan?.location }}</p>
+    <p>A propos de : {{ artisan?.about }}</p>
+    <p>Email: <a (click)="openContactForm()">{{ artisan?.email }}</a></p>
+    <p>Site: {{ artisan?.website }}</p>
+    <p>Catégorie: {{ artisan?.category }}</p>
+    <p>Top: {{ artisan?.top ? 'Yes' : 'No' }}</p>
+</div>
+ 
+

@@ -1,0 +1,66 @@
+.artisan-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto; 
+    width: 80%; 
+}
+  
+.artisan-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.artisan {
+    flex-basis: 45%; 
+    margin: 10px;
+    text-align: center; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f1f8fc ;
+}
+  
+.artisan a {
+    text-decoration: none; 
+    border: none; 
+    width: 40%; 
+    padding: 10px;
+    background-color: #0074c7;
+    color: #f1f8fc;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+.artisan p {
+    font-weight: bold; 
+    font-family: 'Graphik', sans-serif;
+}
+
+.bloc2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    flex-direction: column;
+}
+  
+.centered-image {
+    width: 50%; 
+    height: auto; 
+    margin: 0 auto; 
+    align-self: center; 
+}
+
+.bloc1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+.artisan {
+    flex-basis: 30%; 
+    margin: 10px;
+}

@@ -1,0 +1,44 @@
+.artisan-profile {
+    display: block; 
+    margin: 0 auto; 
+    width: 80%; 
+    white-space: pre-wrap;
+  }
+
+.artisan-profile p {
+    font-weight: bold; 
+    font-family: 'Graphik', sans-serif;
+  }
+
+.artisan-profile h1 {
+    color: #00497c;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Graphik', sans-serif;
+  }
+
+.centered-image {
+    width: 50%; 
+    height: auto; 
+    margin: 0 auto; 
+    align-self: center; 
+  }
+
+.bloc1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.artisan-profile a {
+    cursor : pointer;
+    font-family: 'Graphik', sans-serif;
+  }
+
+.artisan-profile p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-family: 'Graphik', sans-serif;
+  }
+
+
